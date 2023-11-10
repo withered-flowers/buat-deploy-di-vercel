@@ -1,0 +1,4 @@
+- [v] Data apa yang dibutuhin untuk login di frontend
+- [v] Gimana caranya kirimin data & file dari FE ke BE
+- [v] Pagination tips gimana kalau ga pake hooks package tambahan
+- [x] Gimana cara deploynya

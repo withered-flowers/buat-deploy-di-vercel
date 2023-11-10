@@ -1,15 +1,8 @@
-import CustomFooter from "./components/CustomFooter";
-import CustomHeader from "./components/CustomHeader";
+import { RouterProvider } from "react-router-dom";
+import router from "./routers";
 
 function App() {
-  return (
-    <>
-      <section className="flex min-h-[100dvh] w-full flex-col items-center justify-center gap-4 p-4">
-        <CustomHeader />
-        <CustomFooter />
-      </section>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
